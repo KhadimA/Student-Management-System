@@ -1,33 +1,49 @@
-
-nav a{
-    color: black;
+*{
+        font-family: "Single Day", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
 }
-nav a:hover{
+
+.bg-img {
+    background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+}
+
+nav a {
+    color: black;
+
+}
+
+nav a:hover {
     color: salmon;
 }
 
-#btn1{
+#btn1 {
     color: white;
     border-radius: 10px;
     padding: 10px 10px;
     background-color: black;
 }
-#btn1:hover{
-    color:white;
+
+#btn1:hover {
+    color: white;
     background-color: salmon;
 }
-.wel{
+
+.wel {
     text-decoration: underline;
 }
-#btn2{
-    color:white;
+
+#btn2 {
+    color: white;
     background-color: black;
     border-radius: 10px;
     padding: 10px 10px;
     transition: all 0.2s;
 }
-#btn2:hover{
-cursor: pointer;
+
+#btn2:hover {
+    cursor: pointer;
     color: black;
     background-color: salmon;
     padding: 12px 12px;
