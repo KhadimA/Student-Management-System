@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="../Img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="w-full h-full">
+    <!-- back-btn -->
+    <div class="absolute top-10 left-10 w-10 h-10 flex items-center justify-center">
+        <a href="../index.html ">
+            <i class="ri-arrow-left-circle-fill text-5xl text-white "></i>
+        </a>
+    </div>
+    <!-- back-btn -->
+    <div class=" w-full h-screen bg-img-login flex justify-center items-center  ">
+        <!-- Right Pane -->
+        <div class="flex h-[70%] w-[75%]  ">
+            <div class="w-full bg-gray-100 lg:w-1/2 flex items-center justify-center ">
+                <div class="max-w-md w-full p-6">
+                    <h1 class="text-3xl font-semibold mb-6 text-black text-center">Sign Up</h1>
+                    <h1 class="text-sm font-semibold mb-6 text-gray-500 text-center">Join to Our Community with all time
+                        access and free </h1>
+
+                    <form action="#" method="POST" class="space-y-4">
+                        <!-- Your form elements go here -->
+                        <div>
+                            <label for="username" class="block text-sm font-medium text-gray-700">Student name</label>
+                            <input type="text" id="username" name="username" required
+                                class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300">
+                        </div>
+                        <div>
+                            <label for="CNIC" class="block text-sm font-medium text-gray-700">CNIC</label>
+                            <input type="type" id="CNIC" name="CNIC" placeholder="43304-xxxxxxx-x" required
+                                class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="text" id="email" name="email" required
+                                class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300">
+                        </div>
+                        <div>
+                            <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                            <input type="password" id="password" name="password" required
+                                class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300">
+                        </div>
+                        <div>
+                            <button type="submit"
+                                class="w-full bg-black text-white p-2 rounded-md  duration-300 bg-black hover:bg-[salmon] hover:text-black cursor-pointer ease border-none ">Sign
+                                Up</button>
+                        </div>
+                    </form>
+                    <div class="mt-4 text-sm text-gray-600 text-center">
+                        <p>Already have an account? <a href="#" class="text-black hover:underline">Login here</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Left Pane -->
+            <div class="hidden lg:flex items-center justify-center flex-1 bg-white text-black  ">
+                <div class="max-w-md text-center">
+                    <img src="/login/img/Login_re_4vu2.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
