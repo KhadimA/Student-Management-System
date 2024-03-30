@@ -4,45 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Applay Online</title>
     <link rel="shortcut icon" href="../Img/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="w-full h-full overflow-hidden ">
+<body class="w-full h-full overflow-hidden  ">
     <!-- back-btn -->
-    <div class="absolute top-10 left-10 w-10 h-10 flex items-center justify-center">
-        <a href="../index.html ">
-            <i class="ri-arrow-left-circle-fill text-5xl text-white "></i>
+    <div class="absolute top-10 left-10 w-[50px] h-[50px]  bg-white rounded-[50%] flex items-center justify-center">
+        <a href="../index.html " >
+            <i class="ri-home-4-fill text-3xl text-black"></i>
         </a>
     </div>
-    <!-- back-btn -->
-    <div class=" w-full h-screen bg-img-login flex justify-center items-center  ">
+    <div class=" w-full h-screen bg-img-signup flex justify-center items-center  ">
         <!-- Right Pane -->
         <div class="flex h-[70%] w-[75%]  ">
             <div class="w-full bg-gray-100 lg:w-1/2 flex items-center justify-center ">
                 <div class="max-w-md w-full p-6">
-                    <h1 class="text-3xl font-semibold mb-6 text-black text-center">Sign Up</h1>
+                    <h1 class="text-3xl font-semibold mb-6 text-black text-center">Sign In</h1>
                     <h1 class="text-sm font-semibold mb-6 text-gray-500 text-center">Join to Our Community with all time
                         access and free </h1>
 
                     <form action="https://getform.io/f/panvlrja" method="POST" class="space-y-4">
-                        <!-- Your form elements go here -->
-                        <div>
-                            <label for="username" class="block text-sm font-medium text-gray-700">Student name</label>
-                            <input type="text" id="username" name="username" required
-                                class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300">
-                        </div>
                         <div>
                             <label for="CNIC" class="block text-sm font-medium text-gray-700">CNIC</label>
                             <input type="type" id="CNIC" name="CNIC" placeholder="43304-xxxxxxx-x" required
-                                class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300">
-                        </div>
-                        <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-                            <input type="text" id="email" name="email" required
                                 class="mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300">
                         </div>
                         <div>
@@ -54,11 +42,12 @@
                             <button type="submit"
                                 class="w-full bg-black text-white p-2 rounded-md  duration-300 bg-black hover:bg-[salmon] hover:text-black cursor-pointer ease border-none "
                                 onclick="form();" id="sign_btn">Sign
-                                Up</button>
+                                In</button>
                         </div>
                     </form>
                     <div class="mt-4 text-sm text-gray-600 text-center">
-                        <p>Already have an account? <a href="/login/signin.html" class="text-black hover:underline">Login here</a>
+                        <p>Don't have an account? <a href="/login/login.html"
+                                class="text-black hover:underline">SignUp</a>
                         </p>
                     </div>
                 </div>
@@ -66,14 +55,10 @@
             <!-- Left Pane -->
             <div class="hidden lg:flex items-center justify-center flex-1 bg-white text-black  ">
                 <div class="max-w-md text-center">
-                    <img src="/login/img/Sign_up_n6im.png" alt="">
+                    <img src="/login/img/Login_re_4vu2.svg" alt="">
                 </div>
             </div>
         </div>
     </div>
-
-
-    <script src="main.js"></script>
-</body>
 
 </html>
